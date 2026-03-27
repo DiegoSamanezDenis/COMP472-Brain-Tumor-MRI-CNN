@@ -1,0 +1,105 @@
+{
+  "Astrocitoma": {
+    "precision": 0.6770833333333334,
+    "recall": 0.7471264367816092,
+    "f1-score": 0.7103825136612022,
+    "support": 87.0
+  },
+  "Carcinoma": {
+    "precision": 0.967741935483871,
+    "recall": 0.8108108108108109,
+    "f1-score": 0.8823529411764706,
+    "support": 37.0
+  },
+  "Ependimoma": {
+    "precision": 0.6818181818181818,
+    "recall": 0.6818181818181818,
+    "f1-score": 0.6818181818181818,
+    "support": 22.0
+  },
+  "Ganglioglioma": {
+    "precision": 0.5454545454545454,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6,
+    "support": 9.0
+  },
+  "Germinoma": {
+    "precision": 0.5714285714285714,
+    "recall": 0.8,
+    "f1-score": 0.6666666666666666,
+    "support": 15.0
+  },
+  "Glioblastoma": {
+    "precision": 0.7096774193548387,
+    "recall": 0.7096774193548387,
+    "f1-score": 0.7096774193548387,
+    "support": 31.0
+  },
+  "Granuloma": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 12.0
+  },
+  "Meduloblastoma": {
+    "precision": 0.6842105263157895,
+    "recall": 0.65,
+    "f1-score": 0.6666666666666666,
+    "support": 20.0
+  },
+  "Meningioma": {
+    "precision": 0.8106060606060606,
+    "recall": 0.816793893129771,
+    "f1-score": 0.8136882129277566,
+    "support": 131.0
+  },
+  "Neurocitoma": {
+    "precision": 0.9833333333333333,
+    "recall": 0.855072463768116,
+    "f1-score": 0.9147286821705426,
+    "support": 69.0
+  },
+  "Oligodendroglioma": {
+    "precision": 0.8518518518518519,
+    "recall": 0.696969696969697,
+    "f1-score": 0.7666666666666667,
+    "support": 33.0
+  },
+  "Papiloma": {
+    "precision": 0.5714285714285714,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.6588235294117647,
+    "support": 36.0
+  },
+  "Schwannoma": {
+    "precision": 0.7878787878787878,
+    "recall": 0.7428571428571429,
+    "f1-score": 0.7647058823529411,
+    "support": 70.0
+  },
+  "Tuberculoma": {
+    "precision": 0.6363636363636364,
+    "recall": 0.3181818181818182,
+    "f1-score": 0.42424242424242425,
+    "support": 22.0
+  },
+  "_NORMAL": {
+    "precision": 0.776595744680851,
+    "recall": 0.9358974358974359,
+    "f1-score": 0.8488372093023255,
+    "support": 78.0
+  },
+  "accuracy": 0.7648809523809523,
+  "macro avg": {
+    "precision": 0.7503648332888149,
+    "recall": 0.6917544273787023,
+    "f1-score": 0.6929980854755156,
+    "support": 672.0
+  },
+  "weighted avg": {
+    "precision": 0.7787579590450797,
+    "recall": 0.7648809523809523,
+    "f1-score": 0.7610288269638488,
+    "support": 672.0
+  }
+}
