@@ -1,0 +1,16 @@
+[
+  {
+    "value": "cross_entropy",
+    "label": "loss=cross_entropy",
+    "best_val_acc": 0.8928571428571429,
+    "final_val_loss": 0.4387655882608323,
+    "test_acc": 0.8571428571428571
+  },
+  {
+    "value": "focal",
+    "label": "loss=focal",
+    "best_val_acc": 0.9181547619047619,
+    "final_val_loss": 0.19615274171034494,
+    "test_acc": 0.8779761904761905
+  }
+]

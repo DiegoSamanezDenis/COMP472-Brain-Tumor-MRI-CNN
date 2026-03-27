@@ -242,15 +242,8 @@ def build_model(model_key: str, num_classes: int,
 
     elif model_key == "vgg":
         m = models.vgg16(weights=weights)
-        # Replace the massive 3-layer classifier with a lighter head.
-        # Stock VGG classifier has ~120M params — far too many for small
-        # medical datasets, causing collapse to single-class predictions.
-        m.classifier = nn.Sequential(
-            nn.Linear(512 * 7 * 7, 512),
-            nn.ReLU(inplace=True),
-            nn.Dropout(0.5),
-            nn.Linear(512, num_classes),
-        )
+        m.classifier[6] = nn.Linear(4096, num_classes)
+        
 
     else:
         raise ValueError(f"Unknown model key: {model_key}")

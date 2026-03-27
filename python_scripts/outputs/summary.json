@@ -1,7 +1,7 @@
 [
   {
-    "run": "vgg_scratch / br35h",
-    "best_val_acc": 0.9111111111111111,
-    "test_acc": 0.8822222222222222
+    "run": "vgg_pretrained / 15c",
+    "best_val_acc": 0.8169642857142857,
+    "test_acc": 0.8080357142857143
   }
 ]
